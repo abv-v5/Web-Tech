@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <style>
+        body{
+            background-color: rgb(121, 123, 255);
+            display: flex;
+            justify-content: center;
+        }
+        .forms{
+            margin-top: 30px;
+            background-color: rgb(100, 224, 244);
+            box-shadow: 10px 10px 10px  rgb(53, 42, 42);
+            padding: 20px;
+            border-radius: 2%;
+        }
+        .inner{
+            text-align: center;
+        }
+        .buttoo{
+            text-align: center;
+        }
+        @media screen and (max-width:700px) {
+            body{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="forms">
+    <form method="post" action="SIGNUP.HTML" autocomplete="on">
+
+           <div class="inner">
+          <h1>CREATE AN ACCOUNT</h1>
+          <h2>Register Yourself</h2>
+                It is easy to setup an account<hr><br>
+                    <input type="text" placeholder="First name" style="padding: 5px; width: 75%;" /><br><br>
+                    <input type="text" placeholder="Last name" style="padding: 5px; width: 75%;" /><br><br>
+                    <input type="number" maxlength="10" minlength="10" placeholder="Mobile number" style="padding: 5px; width: 75%;" /><br><br>
+                    <input type="email" placeholder="Email" style="padding: 5px; width: 75%;"/><br><br>
+                    <input type="password" placeholder="Enter your password" style="padding: 5px; width: 75%;" /><br><br>
+                    <input type="password" placeholder="Retype your password" style="padding: 5px; width: 75%;" /><br><br>
+                    Birthday:<br><br>
+                    <input type="date" style="padding: 5px; width: 75%;" /><br><br>
+           </div>
+                    <input style="margin-left: 37px;"  type="checkbox" value="Keep me signed in">Keep me signed in<br><br>
+                    <div class="buttoo">
+                    <button style="background-color: rgb(16, 193, 116); color: white;text-align: center; width: 90%; padding: 10px;border-radius: .05in ; border: 0px; ">Sign Up</button>
+                    </div>
+             
+    </form> 
+    </div>
+</body>
+</html>
